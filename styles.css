@@ -1,0 +1,113 @@
+
+* {
+    margin: 0; /*  Cajas de contenido de mi pagina */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { /* Estilo de todo el estilo del body que es el cuerpo */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f3f4f6; /* coloque un fondo claro para mejorar el contraste */
+}
+
+
+header { /* Encabezado */
+    background: #e24ab4;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; /* Alinea el menú a la derecha */
+    align-items: center;
+}
+
+
+header h1 { /* Título principal */
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    transition: transform 0.3s ease-in-out; /* Efecto de transformación en hover */
+}
+
+
+nav { /* Menú de navegación */
+    margin-right: 1rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s; /* Efecto hover en enlaces */
+}
+
+nav a:hover {
+    color: #c13a8f;
+    transform: scale(1.05); /* Pequeño aumento al pasar el mouse */
+}
+
+
+section { /* Estilos de sección o cajas */
+    padding: 2rem;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad a la pagina */
+}
+
+h2 {
+    color: #e24ab4;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.avatar { /* Estilo del avatar o forma a la imagen */
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la imagen */
+}
+
+
+.project-card { /* Estilos de las tarjetas de proyectos mi portafolio de ahi tome la imagen mia */
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+
+.project-card img { /* Imagen dentro de  la tarjeta de proyectos */
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra en la imagen */
+}
+
+
+a { /* Estilo de enlaces */
+    color: #4a4ce2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header h1:hover { /* Efecto en el título del encabezado al pasar el mouse por encima. */
+    transform: scale(1.1);
+}
+
+
+h3 { /* Color en títulos de subtítulos */
+    color: #e24ab4;
+    margin-top: 1rem;
+}
